@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+main {
+  background-color: hsl(0, 0%, 100%);
+  width: 60%;
+  border-radius: 20px;
+  padding: 30px;
+}
+main img {
+  width: 100%;
+  border-radius: 10px;
+}
+h1 {
+  font-family: Young Serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  color: hsl(24, 5%, 18%);
+}
+p {
+  color: hsl(30, 10%, 34%);
+  font-family: Outfit;
+}
+.list-item {
+  background-color: hsl(330, 100%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+}
+.list-item h4 {
+  font-family: Outfit;
+  font-size: 22px;
+  color: hsl(332, 51%, 32%);
+  padding-left: 13px;
+}
+.list-item ul {
+  line-height: 40px;
+  font-family: Outfit;
+  color: hsl(30, 10%, 34%);
+}
+span {
+  font-weight: 700;
+  color: hsl(24, 5%, 18%);
+}
+h2 {
+  font-family: Young Serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: hsl(332, 51%, 32%);
+}
+ul {
+  line-height: 40px;
+  font-family: Outfit;
+  color: hsl(30, 10%, 34%);
+}
+ul::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+hr {
+  border: 1.4px solid hsl(30, 4%, 82%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ol {
+  line-height: 40px;
+  font-family: Outfit;
+  color: hsl(30, 10%, 34%);
+}
+ol li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+h3 {
+  font-family: Young Serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: hsl(332, 51%, 32%);
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner p {
+  padding-left: 30px;
+}
+.inner span {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: Outfit;
+}
+.footer hr {
+  border: 1.4px solid hsl(30, 4%, 82%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.attribution {
+  font-family: Outfit;
+  color: hsl(30, 10%, 34%);
+  font-size: 1.2em;
+  text-align: center;
+}
